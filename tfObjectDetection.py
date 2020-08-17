@@ -42,6 +42,8 @@ categories = label_map_util.convert_label_map_to_categories(
 category_index = label_map_util.create_category_index(categories)
 
 
+
+
 # Helper code
 def load_image_into_numpy_array(image):
     (im_width, im_height) = image.size
